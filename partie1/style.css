@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f5f7;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+fieldset {
+    margin-bottom: 25px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.choices label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.choices input {
+    width: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+button,
+.button-link {
+    padding: 10px 20px;
+    border: none;
+    background: #1f6feb;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover,
+.button-link:hover {
+    opacity: 0.85;
+}

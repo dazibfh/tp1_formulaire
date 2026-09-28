@@ -1,0 +1,27 @@
+========================================
+FICHE ETUDIANT
+========================================
+Nom : osamu
+Prénom : dazai 
+Age : 18
+Téléphone : 0620869430
+Email : ismal.plusplus@gmail.com
+
+--- Informations académiques ---
+Filière : GI
+Année : 1
+Modules : Programmation Avancée
+Nombre de projets : 4
+
+--- Projet / Stage ---
+Projet : poo deploiement
+Date début : 2026-04-28
+Date fin : 2026-09-07
+Lieu : tetouan
+Description : jai passe une mois dans un entreprise
+Compétences : php , java , c 
+Langues : arabe
+Centres d'intérêt : lecture
+Remarques : jai rien dire 
+
+
