@@ -25,3 +25,159 @@ Centres d'intérêt : lecture
 Remarques : jai rien dire 
 
 
+========================================
+FICHE ETUDIANT
+========================================
+Nom : HASNAOUI
+Prénom : ANWAR
+Age : 21
+Téléphone : 0123456789
+Email : anwarhasnaoui967@gmail.com
+
+--- Informations académiques ---
+Filière : GI
+Année : 2
+Modules : Web Avancé, POO, BD
+Nombre de projets : 2
+
+--- Projet / Stage ---
+Projet : Application de gestion d'inventaire
+Date début : 2026-07-15
+Date fin : 2026-07-30
+Lieu : Tetouan
+Description : .
+Compétences : PHP
+HTML
+CSS
+JavaScript
+React
+Laravel
+C#
+C++
+C
+WordPress
+Langues : Arabe
+Anglais
+Français
+Espagnol
+Allemand
+Centres d'intérêt : Codage, Natation , Motos , Voitures 
+Remarques : 
+
+
+========================================
+FICHE ETUDIANT
+========================================
+Nom : HASNAOUI
+Prénom : ANWAR
+Age : 20
+Téléphone : jhyuhj
+Email : anwarhasnaoui967@gmail.com
+
+--- Informations académiques ---
+Filière : MS
+Année : 1
+Modules : Pro Av, Compilation, Réseaux Avancés
+Nombre de projets : 3
+
+--- Projet / Stage ---
+Projet : jhjhj
+Date début : 2026-04-30
+Date fin : 2026-10-02
+Lieu : Tetouan
+Description : jjhj
+Compétences : php jshs
+
+
+Langues : qrqe gh
+Centres d'intérêt : jkkjkkj
+Remarques : kjjkj
+
+
+========================================
+FICHE ETUDIANT
+========================================
+Nom : HASNAOUI
+Prénom : ANWAR
+Age : 20
+Téléphone : jhyuhj
+Email : anwarhasnaoui967@gmail.com
+
+--- Informations académiques ---
+Filière : MS
+Année : 1
+Modules : Pro Av, Compilation, Réseaux Avancés
+Nombre de projets : 3
+
+--- Projet / Stage ---
+Projet : jhjhj
+Date début : 2026-04-30
+Date fin : 2026-10-02
+Lieu : Tetouan
+Description : jjhj
+Compétences : php jshs
+
+
+Langues : qrqe gh
+Centres d'intérêt : jkkjkkj
+Remarques : kjjkj
+
+
+========================================
+FICHE ETUDIANT
+========================================
+Nom : HASNAOUI
+Prénom : ANWAR
+Age : 20
+Téléphone : jhyuhj
+Email : anwarhasnaoui967@gmail.com
+
+--- Informations académiques ---
+Filière : MS
+Année : 1
+Modules : Pro Av, Compilation, Réseaux Avancés
+Nombre de projets : 3
+
+--- Projet / Stage ---
+Projet : jhjhj
+Date début : 2026-04-30
+Date fin : 2026-10-02
+Lieu : Tetouan
+Description : jjhj
+Compétences : php jshs
+
+
+Langues : qrqe gh
+Centres d'intérêt : jkkjkkj
+Remarques : kjjkj
+
+
+========================================
+FICHE ETUDIANT
+========================================
+Nom : HASNAOUI
+Prénom : ANWAR
+Age : 20
+Téléphone : jhyuhj
+Email : anwarhasnaoui967@gmail.com
+
+--- Informations académiques ---
+Filière : MS
+Année : 1
+Modules : Pro Av, Compilation, Réseaux Avancés
+Nombre de projets : 3
+
+--- Projet / Stage ---
+Projet : jhjhj
+Date début : 2026-04-30
+Date fin : 2026-10-02
+Lieu : Tetouan
+Description : jjhj
+Compétences : php jshs
+
+
+Langues : qrqe gh
+Centres d'intérêt : jkkjkkj
+Remarques : kjjkj
+
+

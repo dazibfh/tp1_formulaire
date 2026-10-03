@@ -6,14 +6,21 @@
 
     <title>Générateur de CV</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css?v=<?php echo filemtime(__DIR__ . '/style.css') ?>"
+    >
 </head>
 
 <body>
 
 <div class="container">
 
-    <h1>Générateur de CV</h1>
+    <header class="page-header">
+        <span class="eyebrow">Donnez forme à votre parcours</span>
+        <h1>Créez votre CV</h1>
+        <p>Ajoutez vos informations, vos expériences et vos compétences pour générer un CV prêt à partager.</p>
+    </header>
 
     <form
         action="generer_cv.php"

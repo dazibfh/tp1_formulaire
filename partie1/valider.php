@@ -37,35 +37,61 @@ $texte .= "Nombre de projets : "
     . ($data['nombre_projets'] ?? '')
     . "\n";
 
-$texte .= "\n--- Projet / Stage ---\n";
+$experiences = $data['experiences'] ?? [];
+if (empty($experiences) && !empty($data)) {
+    $experiences[] = $data;
+}
 
-$texte .= "Projet : "
-    . ($data['projet'] ?? '')
-    . "\n";
+$texte .= "\n--- Projets et stages ---\n";
+foreach ($experiences as $index => $experience) {
+    if (!is_array($experience)) {
+        continue;
+    }
 
-$texte .= "Date début : "
-    . ($data['date_debut'] ?? '')
-    . "\n";
+    $texte .= "\nExpérience " . ($index + 1) . "\n";
+    $texte .= "Type : " . ($experience['type_experience'] ?? '') . "\n";
+    $texte .= "Projet / stage : " . ($experience['projet'] ?? '') . "\n";
+    $texte .= "Date début : " . ($experience['date_debut'] ?? '') . "\n";
+    $texte .= "Date fin : " . ($experience['date_fin'] ?? '') . "\n";
 
-$texte .= "Date fin : "
-    . ($data['date_fin'] ?? '')
-    . "\n";
+    if (($experience['type_experience'] ?? '') === 'Projet') {
+        $texte .= "Type de projet : " . ($experience['type_projet'] ?? '') . "\n";
+    } else {
+        $texte .= "Lieu : " . ($experience['lieu'] ?? '') . "\n";
+    }
 
-$texte .= "Lieu : "
-    . ($data['lieu'] ?? '')
-    . "\n";
+    $texte .= "Description : " . ($experience['description'] ?? '') . "\n";
+}
 
-$texte .= "Description : "
-    . ($data['description'] ?? '')
-    . "\n";
+$texte .= "Compétences :\n";
+if (is_array($data['competences'] ?? null)) {
+    foreach ($data['competences'] as $index => $competence) {
+        if (trim((string)$competence) !== '') {
+            $texte .= "- " . $competence;
+            if (!empty($data['competences_niveaux'][$index])) {
+                $texte .= " : " . $data['competences_niveaux'][$index];
+            }
+            $texte .= "\n";
+        }
+    }
+} else {
+    $texte .= ($data['competences'] ?? '') . "\n";
+}
 
-$texte .= "Compétences : "
-    . ($data['competences'] ?? '')
-    . "\n";
-
-$texte .= "Langues : "
-    . ($data['langues'] ?? '')
-    . "\n";
+$texte .= "Langues :\n";
+if (is_array($data['langues'] ?? null)) {
+    foreach ($data['langues'] as $index => $langue) {
+        if (trim((string)$langue) !== '') {
+            $texte .= "- " . $langue;
+            if (!empty($data['langues_niveaux'][$index])) {
+                $texte .= " : " . $data['langues_niveaux'][$index];
+            }
+            $texte .= "\n";
+        }
+    }
+} else {
+    $texte .= ($data['langues'] ?? '') . "\n";
+}
 
 $texte .= "Centres d'intérêt : "
     . ($data['interets'] ?? '')
@@ -73,6 +99,10 @@ $texte .= "Centres d'intérêt : "
 
 $texte .= "Remarques : "
     . ($data['remarques'] ?? '')
+    . "\n";
+
+$texte .= "Fichier : "
+    . ($data['fichier']['original'] ?? 'Aucun')
     . "\n";
 
 $texte .= "\n\n";
@@ -96,7 +126,10 @@ if (
     <meta charset="UTF-8">
     <title>Validation</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="style.css?v=<?php echo filemtime(__DIR__ . '/style.css') ?>"
+    >
 </head>
 
 <body>
